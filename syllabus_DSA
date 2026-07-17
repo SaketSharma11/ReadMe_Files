@@ -1,0 +1,123 @@
+This expanded breakdown provides specific, detailed subtopics and exact problem archetypes for each week. It clarifies exactly what patterns and edge cases to focus on within the compressed 4-month timeline.
+
+
+## Month 1: Programming Foundations & Core DSA## Week 1: Phase 0 Foundations & Syntax Fluency
+
+* Language Basics & Flow Control: Focus on memory allocation for data types, overflow boundaries (e.g., handling integer limits in math problems), optimization of nested loops, and truthy/falsy evaluation.
+* 1D Arrays & Basic Pointers: Subarray iterations, single-pass transformations, frequency tracking maps using auxiliary arrays, and element swap mechanics.
+* Number Systems & Bitwise Ops: Conversions between decimal, binary, and hexadecimal. Fast exponentiation algorithms, parity checking, and isolating the rightmost set bit using mask bitwise operations.
+* String Implementations & Immutability: Handling ASCII/Unicode, string reversal algorithms, character array mutations, string buffering, and in-place space modifications.
+
+## Week 2: Intermediate Problem Solving Techniques
+
+* Matrix & 2D Arrays: Clockwise/anti-clockwise rotations, spiral matrix traversals, diagonal traversal patterns, and row/column conditional search steps.
+* Two-Pointer Archetypes: Opposite-directional pointers for target sum matching in sorted spaces; same-directional pointers for sliding window maximums and variable-length tracking.
+* Prefix Sum & Mathematical Optimization: Pre-computing cumulative array values to solve range-sum query intervals in constant $O(1)$ time, GCD/LCM variants, and prime factorization.
+* Basic Relational CTEs: Writing declarative common table expressions to filter raw parent-child records, handling multi-level dependencies, and sorting temporary tabular records.
+
+## Week 3: Recursion & Fundamental Linear Structures
+
+* Recursion & Backtracking States: Memory stack frames, identifying overlapping subproblems, generating combinations/permutations, and structural boundary termination validation.
+* Sorting & Searching Boundaries: Implementing merge sort and quicksort partitioning, binary search variants for finding first/last occurrences, and searching inside rotated sorted target layouts.
+* Hashing & Collision Management: Custom hash function requirements, open addressing versus chaining resolutions, and designing high-efficiency amortized lookup tables.
+* Linked List Manipulations: Pointer adjustments for singly/doubly nodes, fast/slow pointer strategies for cycle detection, and list merges.
+
+## Week 4: Advanced Linear Structures & Pattern Drills
+
+* Monotonic Stacks: Finding the next greater/smaller element pattern, validating matching brackets, and calculating histogram storage areas.
+* Queue & Deque Mechanics: Circular buffer queues, priority variations, and using a sliding window deque to track maximum bounds.
+* MAANG Interview Sets: Grouping algorithmic variations into pattern classes (e.g., Top K Elements, Merge Intervals) mapped to tech company standards.
+* DSA Live Simulations: Practice articulating space/time trade-offs out loud, processing edge cases, and converting dry-run logic directly into working code.
+
+------------------------------
+
+
+## Month 2: Non-Linear DSA & Database Systems## Week 5: Hierarchical Structures & Prefix Search
+
+* Binary Trees: Recursive/iterative traversals (Inorder, Preorder, Postorder, Level-order), finding maximum depth, calculating diameter, and tracking LCA.
+* Binary Search Trees (BST): Validating BST invariants, implementing dynamic node insertions, node deletions with successor swaps, and floor/ceiling lookups.
+* Heaps & Priority Queues: Simulating binary min/max heap arrays, heapifying chaotic listings, continuous stream sorting, and solving K-way sorted merges.
+* Tries (Prefix Trees): Defining node character maps, auto-complete prefix search routines, and managing bits inside XOR-maximisation problem variants.
+
+## Week 6: Complex Optimization & Graph Topologies
+
+* Priority-Based Greedy Algorithms: Fractional knapsack sorting by value-to-weight ratios, job sequencing arranged by maximum deadlined payouts, and interval scheduling.
+* Dynamic Programming (DP): Multi-dimensional grid path tracking, Knapsack choice states, Longest Common Subsequence indices, and matrix chain optimizations.
+* Graph Traversals & Connectivity: Graph representations via matrices/lists, BFS shortest distance steps, DFS cycle tracking, and Topological Sort steps.
+* Advanced Range Queries: Constructing segment trees to handle dynamic range update operations and matching complex patterns over long textual streams.
+
+## Week 7: Advanced Relational Engines & Schemas
+
+* Subqueries & Complex Joins: Structuring nested uncorrelated/correlated query evaluation loops, inner/outer exclusions, and joining multiple relational data nodes.
+* Window Functions & Partitioning: Utilizing RANK, DENSE_RANK, ROW_NUMBER, LEAD, and LAG windows over partitioned data segments.
+* Recursive Common Table Expressions: Resolving graph structures inside SQL engines, evaluating hierarchical organizational chart dependencies, and loop generation.
+* Relational Schema Design: Designing tables with explicit foreign keys, indexing columns to prevent sequential table scans, and normalizing storage states.
+
+## Week 8: Object-Oriented Blueprinting & Machine Coding
+
+* Object-Oriented Design (OOPS): Applying Solid principles, polymorphic behavior design, interface definitions, abstract classes, and encapsulation safety boundaries.
+* Design Patterns: Applying Creational patterns (Singleton, Factory), Structural layouts (Adapter, Composite), and Behavioral interactions (Observer, Strategy).
+* UML Class Modeling: Drawing class relation topologies, defining clear visibility symbols (+/-), and identifying structural associations.
+* Machine Coding Standards: Writing modular, extensible, and completely error-handled console logic within an isolated 90-minute design window.
+
+------------------------------
+
+
+## Month 3: High-Level Design & Full-Stack Mastery## Week 9: Distributed Architectures at Scale
+
+* Ingress, Routing & Sharding: Configuring Layer 4 vs Layer 7 load balancers, deploying consistent hashing rings to scale storage, and database sharding.
+* Distributed Caching Layers: Caching patterns (Write-through, Cache-aside), cache eviction mechanics (LRU, LFU), and handling cache stamps/herding.
+* NoSQL Engine Classifications: Analyzing Key-Value, Document, Columnar, and Graph engines against traditional transactional ACID frameworks.
+* Asynchronous Message Queues: Publisher-subscriber decoupling, event logs, dead-letter message management pipelines, and ensuring once-and-only-once message deliveries.
+
+## Week 10: Enterprise Java Backend Engineering
+
+* Spring Boot Lifecycle: Dependency injection paradigms, IoC containers, bean lifecycles, and configuration management.
+* REST API & Postman Integration: Designing idempotency into HTTP methods, defining status codes, setting parameters, and handling request payloads.
+* ORM & Data Persistence: Managing Hibernate entity persistence states, solving the N+1 query issue, and mapping relational entity associations.
+* Robust Exception Testing: Global @ControllerAdvice catch blocks, custom exception classes, and automated mock unit testing via JUnit.
+
+## Week 11: MERN Stack Foundations
+
+* Asynchronous Node.js & Express: Event-loop threading boundaries, middleware execution pipelines, error captures, and building backend routes.
+* MongoDB Document Operations: Document embedding variants vs referencing strategies, aggregate pipeline arrays, and slow query profile analysis.
+* React Rendering Lifecycle: State mechanics vs props propagation, hooks implementation restrictions (useState, useEffect), and performance memoization loops.
+* Redux State Management: Structuring predictable central state slices, action dispatch flows, reducer mutation laws, and async thunk API handling.
+
+## Week 12: Production Infrastructure & Systems
+
+* Version Control (Git): Managing rebases, cherry-picking commits, resolving conflict indicators, and managing multi-developer workflows.
+* CI/CD Deployment Pipelines: Dockerizing applications, running health check monitors, setting environment variables, and orchestrating target clouds.
+* Network Communication In-Depth: Parsing HTTP/HTTPS requests, TCP three-way handshake phases, DNS resolution steps, and WebSocket handshakes.
+* Operating System Core Concepts: Multi-threading concurrency anomalies, CPU scheduling rules, virtual memory mapping, and deadlock prevention steps.
+
+------------------------------
+
+
+## Month 4: Applied GenAI, Mobile Dev, & System Projects## Week 13: Large Language Models & Semantic Vectors
+
+* Transformer Architectures: Multi-head self-attention layer interactions, tokenization mechanics, and positional vector assignments.
+* Prompt Engineering Strategies: Chain-of-Thought prompting paths, Few-Shot contextual exemplars, and system role instruction tuning constraints.
+* LLM API Orchestration: Configuring temperature controls, maximum token windows, handling rate constraints, and structured JSON output shapes.
+* Vector Searching Mechanics: Embedding transformations, cosine similarity index matching, and building vector index structures (HNSW/IVF).
+
+## Week 14: Advanced Agentic RAG Frameworks
+
+* Enterprise RAG Pipelines: Hierarchical parsing methods, parent-child document splitting strategies, and two-stage neural re-ranking architectures.
+* Parameter-Efficient Fine-Tuning: LoRA (Low-Rank Adaptation) matrix scaling mechanics, freezing weights, and dataset quantization patterns.
+* LangChain & LangGraph Workflows: Constructing stateful multi-agent decision nodes, edge conditional routings, and managing cyclic loops.
+* Model Context Protocol (MCP): Integrating open communication standards to safely connect models directly to real-world database APIs and tool endpoints.
+
+## Week 15: Cross-Platform & Real-World System Case Studies
+
+* Mobile Layouts via React Native: Expo CLI view tree assemblies, state synchronization, storage persistence, and native push alert setups.
+* Hotstar Content Delivery Engine: Architecting real-time streaming topologies, optimizing CDN node setups, edge-caching patterns, and handling high concurrent load spikes.
+* Amazon Order Management Processing: Structuring distributed Saga orchestrations, database retry loops, and guaranteeing transactional safety.
+* Uber City-Scale Ride Allocation: Processing high-velocity geospatial streams, calculating real-time dynamic pricing rules, and driver matching routines.
+
+## Week 16: End-to-End Projects & Career Preparation
+
+* Zomato Full-Stack Application: Combining restaurant portals, customer menu selectors, checkout processes, and administrative panels into a cohesive system.
+* Internal Corporate Document RAG Assistant: Building safe, cost-optimized semantic lookup tools with latency safeguards for business document processing.
+* ATS Resume Customization: Crafting metrics-driven bullet points, embedding role keywords, and removing non-compliant layout elements.
+* Outbound Outreach Workflows: Writing crisp, targeted cold emails structured with hooks and clear action items, tracked via conversion sheets.
