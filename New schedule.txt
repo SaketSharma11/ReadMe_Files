@@ -1,0 +1,17 @@
+Week 1: Java Programming Constructs & Syntax Fluency
+• Input/Output Systems: Reading console input efficiently using Scanner vs. high-performance
+BufferedReader and InputStreamReader for competitive programming and high-throughput
+input streams.
+• Primitive Data Types & Memory Allocation: Deep dive into Java's 8 primitive types and their
+corresponding wrapper classes. Understanding explicit vs. implicit type casting, numeric
+promotion, and overflow/underflow boundaries.
+• Language Operators & Flow Control: Arithmetic, bitwise, relational, logical short-circuit
+evaluation operators. Conditional evaluation via if-else and switch expressions without implicit
+truthy/falsy evaluation.
+• Loop Control Structures: Writing optimized iterative loops (for, enhanced for-each, while, dowhile) and controlling iteration via break and continue.
+• 1D Array Memory Mechanics: Declaration, creation, and contiguous memory layout of 1D
+arrays in Java's Heap memory region. Array zero-initialization, bounds checking, and handling
+exceptions.
+• String Immutability & Memory Pool: The String class internals, why Strings are immutable in
+Java, thread safety benefits, and memory management inside the String Constant Pool (SCP).
+String manipulation using StringBuilder and StringBuffer.
