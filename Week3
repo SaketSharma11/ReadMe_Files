@@ -1,0 +1,14 @@
+Week 3: Recursion, Searching & Linear Lists
+Recursion Mechanics & Stack Frames: Understanding the execution call stack, tracking method stack frame allocation/
+deallocation in Java's Stack memory, and preventing StackOverflowError.
+Backtracking Algorithms: State space tree traversals, managing state changes, and recursion termination boundaries for
+generating subsets, combinations, permutations, and string pattern matches.
+Sorting Algorithms & Java Standards: Implementing Merge Sort and Quick Sort partitioning algorithms. Understanding
+Java's built-in sorting mechanisms: Dual-Pivot Quicksort for primitive arrays (Arrays.sort()) and TimSort for object reference
+arrays.
+Binary Search Invariants: Standard binary search implementation, lower bound and upper bound index seeking, finding
+first/last occurrences of elements, and searching within rotated sorted arrays.
+Singly & Doubly Linked Lists: Constructing manual list nodes using reference objects. Pointer adjustments for node
+insertion, unlinking, and deletion.
+Linked List Algorithmic Patterns: In-place singly linked list reversal, merging two sorted lists, finding midpoints, and
+Floyd’s Cycle Detection algorithm (Fast & Slow pointers).
