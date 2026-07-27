@@ -1,19 +1,19 @@
 Week 2: Intermediate Java Problem Solving & Matrix Operations
-Matrix & 2D Array Structures: Declaring and manipulating 2D arrays and jagged arrays (arrays of arrays with varying row
+1) Matrix & 2D Array Structures: Declaring and manipulating 2D arrays and jagged arrays (arrays of arrays with varying row
 lengths).
-2D Array Transformations: In-place matrix operations: matrix transposition, 90° clockwise and counter-clockwise
+2) 2D Array Transformations: In-place matrix operations: matrix transposition, 90° clockwise and counter-clockwise
 transformations, diagonal indexing, and spiral matrix traversals.
-Conditional 2D Search Algorithms: Optimizing search logic inside row-wise and column-wise sorted matrices using
+3) Conditional 2D Search Algorithms: Optimizing search logic inside row-wise and column-wise sorted matrices using
 Staircase Search algorithms in O(M + N) time complexity.
-Two-Pointer Algorithmic Frameworks: Opposite-directional two-pointer loops for target sum matching in sorted arrays;
+4) Two-Pointer Algorithmic Frameworks: Opposite-directional two-pointer loops for target sum matching in sorted arrays;
 same-directional fast/slow pointers for array partitioning and cycle detection.
-Sliding Window Techniques: Fixed-length and variable-length sliding window patterns for tracking maximum subarray
+5) Sliding Window Techniques: Fixed-length and variable-length sliding window patterns for tracking maximum subarray
 sums, minimum window substrings, and contiguous subarray metrics.
-Bitwise Operations & Masks: Direct bit manipulations using Java operators (&, |, ^, ~). Bit shift mechanics: Left Shift (<<),
+6) Bitwise Operations & Masks: Direct bit manipulations using Java operators (&, |, ^, ~). Bit shift mechanics: Left Shift (<<),
 Arithmetic Right Shift (>>), and Unsigned Logical Right Shift (>>>).
-Bitwise Algorithmic Optimization: Fast exponentiation using bit-shifting loops, parity checking, and isolating the rightmost
+7) Bitwise Algorithmic Optimization: Fast exponentiation using bit-shifting loops, parity checking, and isolating the rightmost
 set bit using two's complement arithmetic (X & -X).
-Hashing Mechanics & Hash Contracts: The Java hashing specification: overriding hashCode() and equals() contracts
+8) Hashing Mechanics & Hash Contracts: The Java hashing specification: overriding hashCode() and equals() contracts
 properly.
 HashMap Internals: Internal architecture of java.util.HashMap: Bucket array indexing, load factor mechanics, dynamic
 rehashing, collision resolution via separate chaining, and Red-Black tree conversion (TREEIFY_THRESHOLD = 8).
