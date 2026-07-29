@@ -1,0 +1,83 @@
+**At 5 years of experience, interviewers expect you to go beyond syntax.** They want to see that you understand the internal contracts of APIs, JVM memory models, performance trade-offs, and how systems fail at scale [1-3]. 
+
+Here is a comprehensive 9-day preparation plan derived entirely from the provided interview guides and curriculum structures, encompassing the exact questions and topics expected for a mid-to-senior Java Developer.
+
+### ☕ Days 1-3: Core Java, JVM Internals, and Concurrency
+*Focus on memory management, deep collection internals, and multi-threading paradigms.*
+
+**Day 1: JVM Architecture & Memory Management**
+*   **Garbage Collection:** How does the G1 Garbage Collector differ from ZGC and CMS, and when would you choose one over the other? [4-6]
+*   **Memory Model:** Explain the Java memory model. How do the Heap (Young, Old generations), Stack, and Metaspace interact during execution? [4, 5, 7, 8]
+*   **Memory Leaks:** How do you detect and fix memory leaks in a highly concurrent Java backend? Which JVM profiling tools (e.g., JFR, jstat, VisualVM) do you use? [4, 5, 9, 10]
+*   **References:** Explain the difference between strong, weak, soft, and phantom references and their practical use cases (e.g., `WeakHashMap` for caches). [10, 11]
+*   **Optimization:** Discuss your approach to JVM performance tuning in production environments and how Just-In-Time (JIT) compilation optimizes code at runtime [12, 13]. 
+*   **Off-Heap:** When and why would you use off-heap memory (e.g., `DirectByteBuffer`) in Java? [10]
+
+**Day 2: Object Contracts & Collection Internals**
+*   **HashMap Deep Dive:** How is `HashMap` implemented internally in Java 8+? Explain how it handles collisions, load factors, separate chaining, and its conversion to Red-Black Trees. [14-18]
+*   **Contracts:** What is the importance of the `hashCode()` and `equals()` contract? What are the common pitfalls of using them together? [15, 19, 20]
+*   **Data Structures:** Differentiate between `Vector` and `ArrayList` [21]. How does an `ArrayList` resize internally? [22]
+*   **Fail-Safe vs Fail-Fast:** Explain fail-fast vs fail-safe iterators with examples from the Java Collections framework. [18, 23]
+*   **Custom Implementations:** Implement a custom `ConcurrentHashMap`. What locking strategy (e.g., lock striping) would you use? [18, 24-26]
+*   **Generics & Sorting:** Explain how Generics improve type safety without runtime overhead. What’s the difference between `Comparator` and `Comparable` when sorting collections? [27]
+
+**Day 3: Advanced Concurrency & Multi-threading**
+*   **Locks & Synchronization:** What is the difference between a `synchronized` block and `ReentrantLock`? Explain how `tryLock()` and fair locking work [18, 28]. 
+*   **Thread Safety:** Can you write code for representing a thread-safe singleton pattern in Java (e.g., Double-check locking, Enums)? [11, 29, 30]
+*   **Thread Management:** Design a highly concurrent backend task scheduler. How would you handle thread pool management (via `ExecutorService`) and prevent deadlocks? [18, 19]
+*   **Variable Modifiers:** Differentiate between `volatile` and `transient` variables. Does `volatile` guarantee atomicity? [18, 31, 32]
+*   **Asynchronous Processing:** How does `CompletableFuture` work? Compare it with parallel streams for asynchronous non-blocking operations. [18, 28]
+*   **Modern Java:** What are virtual threads (Project Loom) and how do they change concurrency models? [33] How do you implement backpressure in an asynchronous system? [34]
+
+---
+
+### 🍃 Days 4-6: Spring Boot & Microservices
+*Focus on auto-configuration, robust API design, and distributed service communication.*
+
+**Day 4: Spring Boot Internals & Configuration**
+*   **Core Concepts:** What is the difference between Spring and Spring Boot? Explain the concept of "convention over configuration". [35, 36]
+*   **Auto-Configuration:** How does Spring Boot auto-configuration work under the hood? Explain the role of `@EnableAutoConfiguration` and condition annotations like `@ConditionalOnProperty` and `@ConditionalOnClass`. [18, 37-40]
+*   **Dependency Injection:** What is Inversion of Control (IoC) and Dependency Injection? [41] Explain the difference between `@Component`, `@Service`, `@Repository`, and `@Controller`. [42-44]
+*   **Context & Lifecycle:** Explain Spring Bean scopes (singleton, prototype, request) and their lifecycle [42, 45, 46]. Explain lazy initialization in Spring Boot [47, 48].
+*   **Properties:** How do you override default properties? What is the difference between `application.properties` and `application.yml`? [47, 49]
+
+**Day 5: REST APIs, ORM, & Security**
+*   **API Design:** How do you build a REST API with Spring? What is the difference between `@Controller` and `@RestController`? [45, 50-52]
+*   **Exception Handling:** How can you handle exceptions globally? Explain the difference between `@ControllerAdvice` and `@RestControllerAdvice`. [50, 53-56]
+*   **Spring Data JPA:** How does Spring Data JPA integrate with Spring Boot? What is the difference between `CrudRepository` and `JpaRepository`? [57, 58]
+*   **ORM Optimization:** What is lazy loading in Hibernate? [59] How do you resolve the N+1 query problem (e.g., using `JOIN FETCH` or `@EntityGraph`)? [53, 54, 60]
+*   **Security:** Explain the role of Spring Security. How does it handle authentication, authorization, and vulnerabilities like XSS and CSRF? [61-63]
+
+**Day 6: Microservices, Actuator & Resilience**
+*   **Microservices Architecture:** How do you handle inter-service communication in a microservices ecosystem? [18, 61]
+*   **Fault Tolerance:** Explain the Circuit Breaker pattern (e.g., Resilience4j). How does it prevent cascading failures in a microservices architecture? [18, 61, 64]
+*   **Distributed Transactions:** Discuss the Saga pattern for distributed transactions across multiple data sources. [18, 61, 65, 66]
+*   **Observability:** How do you implement distributed tracing and observability in a Spring Boot microservice ecosystem? [18, 67]
+*   **Monitoring:** What is the role of Spring Boot Actuator? Explain its key endpoints (e.g., `/health`, `/metrics`). [68, 69]
+
+---
+
+### 🏗️ Days 7-9: System Design & Architecture
+*Focus on high availability, scaling, databases, and AI integration at the architectural level.*
+
+**Day 7: Scalability, Caching, & Databases**
+*   **Database Scaling:** How do you manage data partitioning and sharding for Java services? [70] What are your criteria for choosing a persistence strategy (SQL vs NoSQL)? [71]
+*   **Caching Layers:** Discuss distributed caching architectures. When do you use Write-through vs Cache-aside patterns? [24, 25, 72, 73]
+*   **Cache Failures:** How do you prevent Cache Stampedes/Herding, Cache Penetration, and Cache Avalanches? [25]
+*   **Load Balancing & Ingress:** Explain Layer 4 vs Layer 7 load balancers and how to deploy Consistent Hashing rings to scale distributed storage without hotspotting. [24, 25, 72, 73]
+*   **Availability:** Explain how you would plan high availability and failover for stateful systems (e.g., active-passive clusters, split-brain handling). [74]
+
+**Day 8: Real-World Case Studies & Distributed Systems**
+*   **Distributed Checkout:** Design a distributed e-commerce checkout service (Amazon-style). How do you guarantee idempotency, manage transactions, and avoid double-charging during network partitions? [26, 65, 66, 75, 76]
+*   **Real-Time Messaging:** Design a highly concurrent real-time messaging backend (WhatsApp). How would you handle state management by integrating a distributed cache like Redis with concurrent processing nodes via WebSockets? [66, 75-77]
+*   **Legacy Migration:** How would you migrate a monolithic legacy application to a microservices architecture with zero downtime? Detail the database decoupling strategy (e.g., Strangler Fig pattern). [77, 78]
+*   **Asynchronous Messaging:** How would you design a scalable, low-latency service using message queues (Kafka/RabbitMQ)? Explain Dead-Letter Queues (DLQ) and exactly-once processing guarantees. [24, 25, 72-74]
+
+**Day 9: Applied GenAI Systems & Mega-Scale Architecture**
+*   **AI Architecture:** Design a highly scalable Retrieval-Augmented Generation (RAG) architecture. How do you handle dynamic document chunking, embedding generation, and vector index synchronization at scale? [79]
+*   **Vector DB Integration:** How would you design a backend system that integrates with a local vector database (like ChromaDB or Pinecone) for a RAG-based AI application? [18, 80, 81]
+*   **LLM Serving:** Design a low-latency inference serving layer for open-weight LLMs. [79]
+*   **Geo-Spatial Systems (Uber):** Design a real-time cab booking platform handling geospatial data indexing (H3 grids), surge pricing engines, and localized high-velocity matching algorithms. [65, 66, 75, 76]
+*   **Live Video Streaming (Hotstar):** Architect a high-traffic live video streaming system. Focus on global multi-CDN caching networks, edge-caching patterns, and handling concurrency spikes of millions of users. [65, 66, 75, 82]
+
+**Advice for your Interviews:** When practicing these questions, remember to *think out loud* and always discuss trade-offs (e.g., "I could solve this in O(1) space, but to optimize for a large dataset, I will trade heap space for time complexity") [83, 84]. Best of luck!
