@@ -1,0 +1,22 @@
+Platform  : AMD/Intel
+Processor : 3000 Series,5000 Series,7000 Series,8000 Series,9000 Series,Threadripper 7000 Series,Threadripper Pro 7000 WX-Series,Threadripper 9000 Series,Threadripper Pro 9000 WX-Series 
+GPU Type :  Dedicated
+Processor model : Ryzen 5 9600X,Ryzen 7 9700X,Ryzen 7 9800X3D,Ryzen 9 9900X,Ryzen 9 9900X3D,Ryzen 9 9950X,Ryzen 9 9950X3D,Ryzen 9 9950X3D2 Dual Edition (all for 9000 series)
+RAM Type: DDR5,DDR4
+Chipset Model:B650M WiFi,B850M WiFi,B850 WiFi,X870 WiFi
+GPU : GT 710 2GB GDDR5, RTX 3050 6GB GDDR6, RTX 3050 8GB GDDR6, RTX 3060 12GB GDDR6, RTX 5060 8GB GDDR7, RTX 5060 Ti 8GB GDDR7, RTX 5060 Ti 16GB GDDR7, RTX 5070 12GB GDDR7, RTX 5070 Ti 16GB GDDR7, RTX 5080 16GB GDDR7, RTX 5090 32GB GDDR7, RTX PRO 2000 Blackwell 16GB GDDR7 ECC, RTX PRO 4000 Blackwell 24GB GDDR7 ECC, RTX PRO 4500 Blackwell 32GB GDDR7 ECC Workstation Edition, RTX PRO 5000 Blackwell 48GB GDDR7 ECC, RTX PRO 6000 Blackwell 96GB GDDR7 ECC Max-Q Workstation Edition, RTX PRO 6000 Blackwell 96GB GDDR7 ECC Workstation Edition,Radeon RX 550 4GB GDDR5, Radeon RX 580 8GB GDDR5, Radeon RX 7600 8GB GDDR6, Radeon RX 9060 XT 8GB GDDR6, Radeon RX 9060 XT 16GB GDDR6, Radeon RX 9070 16GB GDDR6, Radeon RX 9070 XT 16GB GDDR6
+Cooler model: Premium Air Cooler, 120mm AIO Liquid Cooler, 240mm AIO Liquid Cooler, 240mm AIO Liquid Cooler With Digital Display, 360mm AIO Liquid Cooler, 360mm AIO Liquid Cooler With Digital Display, 360mm AIO Liquid Cooler With Custom LCD Display
+PSU Model : 550W, 550W 80+ Bronze, 600W, 650W 80+ Bronze, 750W 80+ Bronze, 750W 80+ Gold, 850W 80+ Gold, 1000W 80+ Gold, 1200W 80+ Gold, 1500W 80+ Platinum, 3000W 80+ Platinum
+
+
+
+Role: You are an system engineer. Requirement: I want to build a custom pc for the purpose of Agentic AI development. Give me the best possible components(motherboard/CPU/chipset/RAM/HARDDISK/GPU/Powersupply..etc) that needs to be installed.Leave desktop/mouse/keyboard for now. First choose the component from the context provided. SUggest other models only when there is some compatibility issue or some better option available outside the context.Also consider the prices before selecting the best models. I want to keep the cost lowest as possible. Context: Platform  : AMD/Intel
+Processor : 3000 Series,5000 Series,7000 Series,8000 Series,9000 Series,Threadripper 7000 Series,Threadripper Pro 7000 WX-Series,Threadripper 9000 Series,Threadripper Pro 9000 WX-Series 
+GPU Type :  Dedicated
+Processor model : Ryzen 5 9600X,Ryzen 7 9700X,Ryzen 7 9800X3D,Ryzen 9 9900X,Ryzen 9 9900X3D,Ryzen 9 9950X,Ryzen 9 9950X3D,Ryzen 9 9950X3D2 Dual Edition (all for 9000 series)
+RAM Type: 16GB DDR5,32GB DDR5,24GB DDR4, 48GB DDR4
+Chipset Model:B650M WiFi,B850M WiFi,B850 WiFi,X870 WiFi
+GPU : GT 710 2GB GDDR5, RTX 3050 6GB GDDR6, RTX 3050 8GB GDDR6, RTX 3060 12GB GDDR6, RTX 5060 8GB GDDR7, RTX 5060 Ti 8GB GDDR7, RTX 5060 Ti 16GB GDDR7, RTX 5070 12GB GDDR7, RTX 5070 Ti 16GB GDDR7, RTX 5080 16GB GDDR7, RTX 5090 32GB GDDR7, RTX PRO 2000 Blackwell 16GB GDDR7 ECC, RTX PRO 4000 Blackwell 24GB GDDR7 ECC, RTX PRO 4500 Blackwell 32GB GDDR7 ECC Workstation Edition, RTX PRO 5000 Blackwell 48GB GDDR7 ECC, RTX PRO 6000 Blackwell 96GB GDDR7 ECC Max-Q Workstation Edition, RTX PRO 6000 Blackwell 96GB GDDR7 ECC Workstation Edition,Radeon RX 550 4GB GDDR5, Radeon RX 580 8GB GDDR5, Radeon RX 7600 8GB GDDR6, Radeon RX 9060 XT 8GB GDDR6, Radeon RX 9060 XT 16GB GDDR6, Radeon RX 9070 16GB GDDR6, Radeon RX 9070 XT 16GB GDDR6
+Cooler model: Premium Air Cooler, 120mm AIO Liquid Cooler, 240mm AIO Liquid Cooler, 240mm AIO Liquid Cooler With Digital Display, 360mm AIO Liquid Cooler, 360mm AIO Liquid Cooler With Digital Display, 360mm AIO Liquid Cooler With Custom LCD Display
+PSU Model : 550W, 550W 80+ Bronze, 600W, 650W 80+ Bronze, 750W 80+ Bronze, 750W 80+ Gold, 850W 80+ Gold, 1000W 80+ Gold, 1200W 80+ Gold, 1500W 80+ Platinum, 3000W 80+ Platinum.
+Constraints: I am looking for a PC for Agentic AI development. Cut the cost on other coponent if they are not relevant to Agentic AI development. Like restrict the CPU cores to 8 cores and not below that. And more to 48GB DDR4 instead of 32GB DDR5( for example)
