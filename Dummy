@@ -227,7 +227,7 @@ When doing technical dry-runs, you must practice the following out loud:
 
 Role: You are a senior AI engineer. Requirement : iam a solo deveolper who wants to deveoper android/web apps using Agentic AI with 32B parameter LLM running locally. The app can be any complex web app or android app. android app can be moderate-to-complex. For example file-transfer,cam-scanner,games like puzzle,chess,maze,ludo, mid graphic games like car racing/shooting/flight simulator...etc. The hardware which i want to purchase is AMD Radeon AI Pro R9700 32GB with 48GB DDR5 Ram(24GB X2). Tell me if this setup is sufficient to automate AI agents to get the app built. Iam ok to use ubuntu and use ollama/llama.cpp inference engine.Tell me if its sufficient and calculate all the limits(context-lenght) and metrics and tradeoffs in this system metrics.
 
-
+Role: You are a senior java developer. Requirement: Explain in-detail all the topics and subtopics mentioned in the context. Also include if anything is missing to the context and are relevant to clear java interview for 5 year experienced java developer.Also while explaining explain as if u are explaining it to a beginner.Also dont just answer the question, first explain what the concept is and how its used in JAVA. Context:
 
 
 
