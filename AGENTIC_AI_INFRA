@@ -32,6 +32,7 @@ Constraints: I am looking for a PC for Agentic AI development. Cut the cost on o
  1,900 COOLER MASTER HYPER 212 LED SPECTRUM V3 CPU AIR COOLER
 Role: You are a senior AI engineer. Requirement: I am a solo developer and want to develop andorid app using Agentic AI with 32B LLM running locally. Help me in building a custom PC with Sapphire AMD Radeon AI Pro R9700 32GB Graphic Card , tell me if the components are feasible wiht it and will provide optimal performance for my needs, CPU : AMD Ryzen 7 9700X (8cores), RAM : CRUCIAL PRO 24GB DDR5-5600 UDIMM CL46 (24GBIT) CP24G56C46U5 X2 (48GB), MotherBoard: MSI X870E GAMING PLUS WIFI ATX MOTHERBOARD (or) MSI PRO B850-S WIFI6E Motherboards, Storage : CRUCIAL P310 2TB PCIE GEN4 NVME M.2 SSD CT2000P310SSD8 (2TB). PSU : Ant Esports FG850 V2 Gold 850 Watt Fully Modular ATX 3.1 SMPS with Braided Nylon Cables. Cooler: COOLER MASTER ELITE 681 COMPUTER CASE ARGB BLACK. COntraints: I want my pc in less cost. Check the compatibility of each component and tell f its will give out the maximum performance. Iam referring the prices from https://vishalperipherals.com/. suggest me if u have any cheaper and reliable alternative also.
 
+Role: You are a senior AI engineer. Requirement: i want to run 32B LLM locally in my MAC studio having 64GB unified memory.I am going to build applications using agentic AI. Calculate the maximum context-length that i can store in my PC, dont forget the memory required for state maintaince of orchestrator agent and vector DB. Give me the metrics in all precisions.
 
 
 Contraint:
