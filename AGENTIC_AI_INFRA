@@ -38,3 +38,17 @@ Role: You are a senior AI engineer. Requirement: i want to run 32B LLM locally i
 Contraint:
 1)  I need to have atleast 70-80K context-length as iam developing complex appications.
 2) I am ok for trading off using native libraries for ios development(i meant i am ready to install and spend time in configuration of lobraries to support ios app testing), as its not my main concern.
+
+
+Role: You are a senior AI engineer.
+Requirement: Iam s solo developer who wants to develop android/ios/web applications(SAAS) using agentic AI.I will be developing many apps(30+). I am confused about which approach to choose 
+approach 1) use paid cloud API's
+approach 2) use local LLMs for application development.
+using approach (2) i have again confusion which of the following PC to use.
+(a) Dual GPU setup of NVIDIA RTX 5060 Ti 16GB ( total build cost 3.6Lac).
+(b) AMD Radeon AI Pro R9700 32GB GPU ( total build cost 3.5Lac).
+(c) Mac Studio with M5 Max chip - 18-core CPU, 40-core GPU, 16-core Neural Engine - 64GB unified memory (Total build cost 3.5Lac)
+(d) Mac Studio with M5 Max chip - 18-core CPU, 40-core GPU, 16-core Neural Engine - 128GB unified memory (Total build cost 5Lac)
+
+Contraints:- I want to develop almost all kind of complex apps (leaving alone the high graphics games like flight simulator/car racing/shooting..etc) using AI. Considering that i need more context-length limit for complex app developement,dont ignore the bandwidth speed of the PC setup. Calculate all the trade off while using the above two appraches and various PC build options.While calculating the maximum context-length allowed, also give withand with out using android/ios emulators at the same time for testing the app.
+Also suggest the best suited model for my needs and requirement. Which suggesting any upgrade make sure to account the bandwidth limit as it dictates the token generation speed. Also while giving the metrics tell the maximum context-length allowed in the memory to that of supported in the LLM model. Account memory usage of running LLM with context-length cache/vector DB/orchestrator state memory/android-ios emulators.Tell me exactly what i have to do and which PC to prefer.
