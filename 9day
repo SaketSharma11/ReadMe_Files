@@ -83,3 +83,5 @@ Here is a comprehensive 9-day preparation plan derived entirely from the provide
 **Advice for your Interviews:** When practicing these questions, remember to *think out loud* and always discuss trade-offs (e.g., "I could solve this in O(1) space, but to optimize for a large dataset, I will trade heap space for time complexity") [83, 84]. Best of luck!
 
 Role: You are a senior java developer. Requirement: Explain in-detail all the topics and subtopics mentioned in the context. Also include if anything is missing to the context and are relevant to clear java interview for 5 year experienced java developer.Also while explaining explain as if u are explaining it to a beginner.Also dont just answer the question, first explain what the concept is and how its used in JAVA. Context:
+
+Whatever you have explained can u tell in detail how its used from spring/springboot framework as enterprise application today rely on spring more. Dont just tell the topic explain how its used in springboot
